@@ -1,47 +1,56 @@
 ## Packages List
 ### Lucia
 List of packages required to run Lucia
-#### Lucia Controller
-##### Motor & Encoder controller
-[lucia_controller](https://github.com/iHaruruki/lucia_controller.git)
-#### Joy Stick Controller
-[joy_to_cmdvel](https://github.com/iHaruruki/joy_to_cmdvel.git)
-##### Lucia URDF
-[lucia_description](https://github.com/iHaruruki/lucia_description.git)
-##### LiDAR
-UTM-30LX-EW    
-[UTM-30LX-EW](https://www.hokuyo-aut.co.jp/search/single.php?serial=146#program)    
-ROS2-pkg    
-[urg_node2](https://github.com/iHaruruki/urg_node2.git)
-##### dual_laser_merger(ROS 2 Package to merge dual lidar scan data)
-[dual_laser_merger](https://github.com/iHaruruki/dual_laser_merger.git)
-##### orbbec
-astra_pro(for Lucia)    
-[ros2_astra_camera](https://github.com/iHaruruki/ros2_astra_camera.git)  
-astra_stereo_u3(for Mani)    
-[OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2.git)
-#### SLAM
-##### slam_toolbox
-[lucia_slam_toolbox](https://github.com/iHaruruki/lucia_slam_toolbox.git)
-##### cartographer
-[lucia_cartographer](https://github.com/iHaruruki/lucia_cartographer.git)
-#### Navigation
-[lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2.git)
-#### MapStorage
-[MapStorage](https://github.com/iHaruruki/maps.git)
+
+- **Motor & Encoder controller**
+  - Repo:[lucia_controller](https://github.com/iHaruruki/lucia_controller.git)
+
+- **Joy Stick Controller**
+  - Repo:[joy_to_cmdvel](https://github.com/iHaruruki/joy_to_cmdvel.git)
+
+- **Lucia URDF**
+  - Reo:[lucia_description](https://github.com/iHaruruki/lucia_description.git)
+
+- **LiDAR**
+  - UTM-30LX-EW    
+    - [UTM-30LX-EW](https://www.hokuyo-aut.co.jp/search/single.php?serial=146#program)        
+    - Repo:[urg_node2](https://github.com/iHaruruki/urg_node2.git)
+  - dual_laser_merger(ROS 2 Package to merge dual lidar scan data)
+    - Rep:[dual_laser_merger](https://github.com/iHaruruki/dual_laser_merger.git)
+
+- **Depth Camera**
+  - Astra_pro(for Lucia)    
+    - Repo:[ros2_astra_camera](https://github.com/iHaruruki/ros2_astra_camera.git)  
+  - Astra_stereo_u3(for Mani)    
+    - Repo:[OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2.git)
+
+- **SLAM**
+  - slam_toolbox
+    - Repo:[lucia_slam_toolbox](https://github.com/iHaruruki/lucia_slam_toolbox.git)
+  - cartographer
+    - Repo:[lucia_cartographer](https://github.com/iHaruruki/lucia_cartographer.git)
+
+- **Navigation**
+  - [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2.git)
+- **MapStorage**
+  - [MapStorage](https://github.com/iHaruruki/maps.git)
+
 ### Spina
 List of packages required to run Spina
-#### arm
-[spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll.git)
-#### kinematics
-[spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics.git)
-#### vital
-##### vital measurement
+- **arm**
+- [spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll.git)
+
+- **kinematics**
+- [spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics.git)
+
+### vital
+- **vital measurement**
 [lucia_vital](https://github.com/iHaruruki/lucia_vital.git)
-##### vital calibration
-[lucia_vital_calibration](https://github.com/iHaruruki/lucia_vital_calibration.git)
-##### vital display
-[lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display.git)
+- **vital calibration**
+- [lucia_vital_calibration](https://github.com/iHaruruki/lucia_vital_calibration.git)
+
+- **vital display**
+- [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display.git)
 
 ## Command List
 ### Manual Control
