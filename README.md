@@ -38,19 +38,19 @@ List of packages required to run Lucia
 ### Spina
 List of packages required to run Spina
 - **arm**
-- [spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll.git)
+  - [spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll.git)
 
 - **kinematics**
 - [spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics.git)
 
 ### vital
 - **vital measurement**
-[lucia_vital](https://github.com/iHaruruki/lucia_vital.git)
+  - [lucia_vital](https://github.com/iHaruruki/lucia_vital.git)
 - **vital calibration**
-- [lucia_vital_calibration](https://github.com/iHaruruki/lucia_vital_calibration.git)
+  - [lucia_vital_calibration](https://github.com/iHaruruki/lucia_vital_calibration.git)
 
 - **vital display**
-- [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display.git)
+  - [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display.git)
 
 ## Command List
 ### Manual Control
