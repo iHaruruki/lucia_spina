@@ -41,7 +41,7 @@ List of packages required to run Spina
   - [spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll.git)
 
 - **kinematics**
-- [spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics.git)
+  - [spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics.git)
 
 ### vital
 - **vital measurement**
