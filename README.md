@@ -4,16 +4,15 @@
 *A Modular Mobile Base + Arm + Vital Sensing Integration*  
 
 [![ROS 2 Distro - Humble](https://img.shields.io/badge/ROS2-Humble-1f425f.svg)](https://docs.ros.org/)
-[![Stars](https://img.shields.io/github/stars/iHaruruki?style=social)](https://github.com/iHaruruki)
 </div>
 ---
 
-## 🧩 Component Overview (構成概要)
+## 🧩 Component Overview
 
 | Device | Description |
 |----------|----------------|
-| Lucia (Base) | Mobile base: motors, LiDAR, depth, SLAM, navigation |
-| Spina (Arm) | Arm: serial control & inverse kinematics |
+| Lucia (Base) | motors, LiDAR, Depth-Camera, SLAM, Navigation |
+| Spina (Arm) | serial control & inverse kinematics |
 | Vital | Vital measurement |
 
 ### System Flow Diagram
@@ -51,7 +50,7 @@ flowchart LR
 
 ## 📦 Package Matrix
 
-| Domain | Function (EN) | Repository |
+| Domain | Function | Repository |
 |--------|---------------|------------|
 | Base | Motor & Encoder Controller | [lucia_controller](https://github.com/iHaruruki/lucia_controller) |
 | Base | Joystick to cmd_vel | [joy_to_cmdvel](https://github.com/iHaruruki/joy_to_cmdvel) |
