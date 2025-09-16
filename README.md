@@ -70,9 +70,6 @@ flowchart LR
 | Vital | Display | [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display) |
 ---
 
-## 🛠 Environment
-:watch: Coming soon
----
 # Lucia have 4 mode
 ## :video_game: A. Manual Control mode
 
@@ -113,6 +110,7 @@ ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
 The -f option specifies a folder location and a file name where files to be saved.
 With the above command, map.pgm and map.yaml will be saved in the home folder ~/(/home/${username}).
+
 ---
 
 ## 🧭 C. Navigation (Using Saved Map)
@@ -128,12 +126,12 @@ With the above command, map.pgm and map.yaml will be saved in the home folder ~/
     use_sim_time:=false
   ```
 2. Initial Pose
-  1. Click the 2D Pose Estimate button in the RViz2 menu.
-  2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
-  3. Repeat step 1 and 2 until the LDS sensor data is overlayed on the saved map.
+    1. Click the 2D Pose Estimate button in the RViz2 menu.
+    2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
+    3. Repeat step 1 and 2 until the LDS sensor data is overlayed on the saved map.
 3. Send Navigation Goal
-  1. Click the Navigation2 Goal button in the RViz2 menu.
-  2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
+    1. Click the Navigation2 Goal button in the RViz2 menu.
+    2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
 ---
 
 ## 🦾 D. Spina Arm Control
