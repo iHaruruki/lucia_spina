@@ -5,6 +5,7 @@
 
 [![ROS 2 Distro - Humble](https://img.shields.io/badge/ROS2-Humble-1f425f.svg)](https://docs.ros.org/)
 [![Stars](https://img.shields.io/github/stars/iHaruruki?style=social)](https://github.com/iHaruruki)
+<div>
 ---
 
 ## 🧩 Component Overview (構成概要)
@@ -165,4 +166,3 @@ ros2 topic pub \
 
 ## 🛠 Troubleshooting
 :clock: Coming soon
----
