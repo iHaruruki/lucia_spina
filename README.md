@@ -74,16 +74,18 @@ flowchart LR
 ## 🛠 Environment
 :watch: Coming soon
 ---
-
+# Lucia have 4 mode
 ## :video_game: A. Manual Control mode
 
-Bring up base + control via keyboard or joystick.
+Bring up base
 ```bash
 ros2 launch lucia_controller bringup.launch.py
 ```
+Control via keyboard
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+Joystick
 ```bash
 ros2 run joy joy_node
 ```
@@ -94,32 +96,40 @@ ros2 run joy_to_cmdvel joy_to_cmdvel_node
 
 ## 🗺️ B. SLAM (Map Building)
   
-Explore the environment to build a map.
+Bring up base
 ```bash
 ros2 launch lucia_controller bringup.launch.py
+```
+Run slam_toolbox
+```bash
 ros2 launch lucia_slam_toolbox online_async_launch.py
+```
+Control via keyboard
+```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 *Start exploring and drawing the map.*
-The -f option specifies a folder location and a file name where files to be saved.
-With the above command, map.pgm and map.yaml will be saved in the home folder ~/(/home/${username}).
 ```bash
 ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
-Outputs: `~/map.yaml`, `~/map.pgm`
+The -f option specifies a folder location and a file name where files to be saved.
+With the above command, map.pgm and map.yaml will be saved in the home folder ~/(/home/${username}).
 ---
 
 ## 🧭 C. Navigation (Using Saved Map)
 
-1. Launch:
-   ```bash
-   ros2 launch lucia_controller bringup.launch.py
-   ros2 launch lucia_navigation2 navigation2.launch.py \
-     map:=$HOME/ros2_ws/src/lucia_navigation2/map/map.yaml \
-     use_sim_time:=false
-   ```
-2. 初期姿勢推定 / Initial Pose (RViz2 で 2D Pose Estimate)  
-3. 目標設定 / Send Navigation Goal (Navigation2 Goal ボタン)
+1. Bring up base
+  ```bash
+  ros2 launch lucia_controller bringup.launch.py
+  ```
+  Run navigation2
+  ```bash
+  ros2 launch lucia_navigation2 navigation2.launch.py \
+    map:=$HOME/ros2_ws/src/lucia_navigation2/map/map.yaml \
+    use_sim_time:=false
+  ```
+2. Initial Pose (RViz2 で 2D Pose Estimate)  
+3. Send Navigation Goal (Navigation2 Goal ボタン)
 
 ---
 
