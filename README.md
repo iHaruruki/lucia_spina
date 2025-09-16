@@ -5,7 +5,6 @@
 
 [![ROS 2 Distro - Humble](https://img.shields.io/badge/ROS2-Humble-1f425f.svg)](https://docs.ros.org/)
 </div>
----
 
 ## 🧩 Component Overview
 
