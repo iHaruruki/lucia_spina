@@ -5,7 +5,7 @@
 
 [![ROS 2 Distro - Humble](https://img.shields.io/badge/ROS2-Humble-1f425f.svg)](https://docs.ros.org/)
 [![Stars](https://img.shields.io/github/stars/iHaruruki?style=social)](https://github.com/iHaruruki)
-<div>
+</div>
 ---
 
 ## 🧩 Component Overview (構成概要)
@@ -72,9 +72,7 @@ flowchart LR
 ---
 
 ## 🛠 Environment
-
-| 項目 | English |
-:clock: Coming soon
+:watch: Coming soon
 ---
 
 ## :video_game: A. Manual Control mode
@@ -82,9 +80,14 @@ flowchart LR
 Bring up base + control via keyboard or joystick.
 ```bash
 ros2 launch lucia_controller bringup.launch.py
+```
+```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
-# Joystick (optional)
+```
+```bash
 ros2 run joy joy_node
+```
+```bash
 ros2 run joy_to_cmdvel joy_to_cmdvel_node
 ```
 ---
