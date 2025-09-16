@@ -128,16 +128,24 @@ With the above command, map.pgm and map.yaml will be saved in the home folder ~/
     map:=$HOME/ros2_ws/src/lucia_navigation2/map/map.yaml \
     use_sim_time:=false
   ```
-2. Initial Pose (RViz2 で 2D Pose Estimate)  
-3. Send Navigation Goal (Navigation2 Goal ボタン)
-
+2. Initial Pose
+  1. Click the 2D Pose Estimate button in the RViz2 menu.
+  2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
+  3. Repeat step 1 and 2 until the LDS sensor data is overlayed on the saved map.
+3. Send Navigation Goal
+  1. Click the Navigation2 Goal button in the RViz2 menu.
+  2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
 ---
 
 ## 🦾 D. Spina Arm Control
 
 ```bash
 sudo chmod 777 /dev/ttyUSB0  # or add to dialout group
+```
+```bash
 ros2 run spina_arm_controll serial_controller_node
+```
+```bash
 # 例: 全体角度 +90° / Example command
 ros2 topic pub /angle_cmd std_msgs/msg/String "{ data: 'A0p-090' }" --once
 ```
@@ -145,15 +153,19 @@ ros2 topic pub /angle_cmd std_msgs/msg/String "{ data: 'A0p-090' }" --once
 
 ## 💓🔊 E. Vital Signs Display System
 
-EN: Run vital sensing and audio feedback pipeline.
+Run vital sensing and audio feedback pipeline.
 ```bash
-# (Optional) YARP audio
 yarpmanager --application /home/robot/repos/robot/script/ymanager/xml/applications/tutorial/tutorial_audio_3.xml
+```
+```bash
 ros2 run spina_arm_controll serial_controller_node
+```
+```bash
 ros2 run lucia_vital vital_controller_node
+```
+```bash
 ros2 run lucia_vital_signs_display vital_audio_guidance_node
 ```
-
 ---
 
 ## 🧪 Debug
@@ -174,7 +186,6 @@ ros2 topic pub \
   }" --once
 ```
 `status: 4` = SUCCEEDED
-
 ---
 
 ## 🛠 Troubleshooting
