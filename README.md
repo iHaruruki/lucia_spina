@@ -183,7 +183,8 @@ ros2 topic pub \
   }" --once
 ```
 `status: 4` = SUCCEEDED
+
 ---
 
 ## 🛠 Troubleshooting
-:clock: Coming soon
+:watch: Coming soon
