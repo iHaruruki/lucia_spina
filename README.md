@@ -54,7 +54,7 @@ flowchart LR
 | Base | Motor & Encoder Controller | [lucia_controller](https://github.com/iHaruruki/lucia_controller) |
 | Base | Joystick to cmd_vel | [joy_to_cmdvel](https://github.com/iHaruruki/joy_to_cmdvel) |
 | Base | URDF / Description | [lucia_description](https://github.com/iHaruruki/lucia_description) |
-| Sensing | LiDAR Driver | [urg_node2](https://github.com/iHaruruki/urg_node2) |
+| Sensing | LiDAR Driver | [urg_node2_setup](https://github.com/iHaruruki/urg_node2_setup.git) |
 | Sensing | Dual LiDAR Merger | [dual_laser_merger](https://github.com/iHaruruki/dual_laser_merger) |
 | Sensing | Depth Camera | [ros2_astra_camera](https://github.com/iHaruruki/ros2_astra_camera) |
 | Sensing | Depth Camera | [OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2) |
@@ -66,7 +66,7 @@ flowchart LR
 | Arm | Inverse Kinematics | [spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics) |
 | Vital | Vital Measurement | [lucia_vital](https://github.com/iHaruruki/lucia_vital) |
 | Vital | Calibration | [lucia_vital_calibration](https://github.com/iHaruruki/lucia_vital_calibration) |
-| Vital | Display | [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display) |
+| Vital | Display & Audio guidance | [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display) |
 ---
 
 # Lucia have 4 mode
