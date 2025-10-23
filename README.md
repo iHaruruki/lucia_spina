@@ -28,15 +28,14 @@ flowchart LR
   end
   subgraph ARM[Spina Arm]
     ARM_CTRL[Arm Serial Node]
-    IK[IK Solver]
   end
   subgraph VITAL[Vital System]
     VM[Vital Controller]
     VC[Calibration]
     VA[Audio Guidance]
   end
-  LD --> SLAM --> NAV
-  DC --> SLAM
+  LD --> SLAM
+  LD --> NAV
   MC --> NAV
   NAV --> MC
   VM --> VA
