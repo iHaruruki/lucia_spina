@@ -14,35 +14,6 @@
 | Spina (Arm) | serial control & inverse kinematics |
 | Vital | Vital measurement |
 
-### System Flow Diagram
-
-```mermaid
-flowchart LR
-  subgraph Base[Lucia]
-    MC[Motor Controller]
-    LD[LiDAR]
-  end
-  subgraph PC[PC]
-    SLAM[slam_toolbox]
-    NAV[Navigation2]
-  end
-  subgraph ARM[Spina Arm]
-    ARM_CTRL[Arm Serial Node]
-  end
-  subgraph VITAL[Vital System]
-    VM[Vital Controller]
-    VC[Calibration]
-    VA[Audio Guidance]
-  end
-  LD --> SLAM
-  LD --> NAV
-  MC --> NAV
-  NAV --> MC
-  VM --> VA
-  NAV -.goal status.-> VA
-  ARM_CTRL --> VM
-```
-
 ---
 
 ## 📦 Package Matrix
