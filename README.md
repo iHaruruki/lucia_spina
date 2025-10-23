@@ -70,7 +70,7 @@ flowchart LR
 | Audio(EN) | Audio Generator | [audio_generator_edge_tts](https://github.com/iHaruruki/audio_generator_edge_tts.git) |
 ---
 
-# Lucia have 4 mode
+# Lucia have 3 mode
 ## :video_game: A. Manual Control mode
 
 Bring up base
@@ -134,7 +134,8 @@ With the above command, map.pgm and map.yaml will be saved in the home folder ~/
     2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
 ---
 
-## 🦾 D. Spina Arm Control
+## Spina Arm Control & Vital Signs Display System
+### 🦾 Spina Arm Control
 
 ```bash
 sudo chmod 777 /dev/ttyUSB0  # or add to dialout group
@@ -148,7 +149,7 @@ ros2 topic pub /angle_cmd std_msgs/msg/String "{ data: 'A0p-090' }" --once
 ```
 ---
 
-## 💓🔊 E. Vital Signs Display System
+### 💓🔊 Vital Signs Display System
 
 Run vital sensing and audio feedback pipeline.
 ```bash
