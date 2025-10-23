@@ -137,6 +137,7 @@ ros2 run lucia_vital_signs_display vital_audio_guidance_node
 ---
 
 ## 🧪 Debug
+### Announce that you have arrived at the goal point
 Navigation / Simulate Nav Success
 ```bash
 ros2 topic pub \
