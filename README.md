@@ -120,11 +120,6 @@ ros2 topic pub /angle_cmd std_msgs/msg/String "{ data: 'A0p-090' }" --once
 ---
 
 ### 💓🔊 Vital Signs Display System
-
-Run vital sensing and audio feedback pipeline.
-```bash
-yarpmanager --application /home/robot/repos/robot/script/ymanager/xml/applications/tutorial/tutorial_audio_3.xml
-```
 ```bash
 ros2 run spina_arm_controll serial_controller_node
 ```
