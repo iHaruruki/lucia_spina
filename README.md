@@ -18,12 +18,11 @@
 
 ```mermaid
 flowchart LR
-  subgraph Base[Lucia Base]
+  subgraph Base[Lucia]
     MC[Motor Controller]
     LD[LiDAR]
-    DC[Depth Camera]
   end
-  subgraph SLAM_NAV[SLAM & Nav]
+  subgraph PC[PC]
     SLAM[slam_toolbox]
     NAV[Navigation2]
   end
