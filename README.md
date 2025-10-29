@@ -26,7 +26,7 @@
 | Sensing | LiDAR Driver | [urg_node2_setup](https://github.com/iHaruruki/urg_node2_setup.git) |
 | Sensing | Dual LiDAR Merger | [dual_laser_merger](https://github.com/iHaruruki/dual_laser_merger) |
 | Sensing | Depth Camera | [ros2_astra_camera](https://github.com/iHaruruki/ros2_astra_camera) |
-| Sensing | Depth Camera | [OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2) |
+| Sensing | Depth Camera | [OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2_setup.git) |
 | Mapping | slam_toolbox | [lucia_slam_toolbox](https://github.com/iHaruruki/lucia_slam_toolbox) |
 | Mapping | Cartographer | [lucia_cartographer](https://github.com/iHaruruki/lucia_cartographer) |
 | Navigation | Navigation2 | [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2) |
