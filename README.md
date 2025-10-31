@@ -20,15 +20,15 @@
 
 | Domain | Device Name | Function | Repository |
 |--------|----------|---------------|------------|
-| Base | Motor & Encoder Controller | [lucia_controller](https://github.com/iHaruruki/lucia_controller) |
-| Base | Joystick to cmd_vel | [joy_to_cmdvel](https://github.com/iHaruruki/joy_to_cmdvel) |
-| Base | URDF / Description | [lucia_description](https://github.com/iHaruruki/lucia_description) |
-| Sensing | LiDAR Driver | [urg_node2_setup](https://github.com/iHaruruki/urg_node2_setup.git) |
-| Sensing | Dual LiDAR Merger | [dual_laser_merger](https://github.com/iHaruruki/dual_laser_merger) |
-| Sensing | Depth Camera | [ros2_astra_camera](https://github.com/iHaruruki/ros2_astra_camera_setup.git) |
-| Sensing | Depth Camera | [OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2_setup.git) |
-| Mapping | slam_toolbox | [lucia_slam_toolbox](https://github.com/iHaruruki/lucia_slam_toolbox) |
-| Mapping | Cartographer | [lucia_cartographer](https://github.com/iHaruruki/lucia_cartographer) |
+| Base | | Motor & Encoder Controller | [lucia_controller](https://github.com/iHaruruki/lucia_controller) |
+| Base | | Joystick to cmd_vel | [joy_to_cmdvel](https://github.com/iHaruruki/joy_to_cmdvel) |
+| Base | | URDF / Description | [lucia_description](https://github.com/iHaruruki/lucia_description) |
+| Sensing | UTM-30LX | LiDAR Driver | [urg_node2_setup](https://github.com/iHaruruki/urg_node2_setup.git) |
+| Sensing | |Dual LiDAR Merger | [dual_laser_merger](https://github.com/iHaruruki/dual_laser_merger) |
+| Sensing | Astra Pro | Depth Camera | [ros2_astra_camera](https://github.com/iHaruruki/ros2_astra_camera_setup.git) |
+| Sensing | Astra Stereo S U3 | Depth Camera | [OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2_setup.git) |
+| Mapping | | slam_toolbox | [lucia_slam_toolbox](https://github.com/iHaruruki/lucia_slam_toolbox) |
+| Mapping | | Cartographer | [lucia_cartographer](https://github.com/iHaruruki/lucia_cartographer) |
 | Navigation | Navigation2 | [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2) |
 | Maps | Map Storage | [maps](https://github.com/iHaruruki/maps) |
 | Arm | Arm Serial Control | [spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll) |
