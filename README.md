@@ -29,15 +29,15 @@
 | Sensing | Astra Stereo S U3 | Depth Camera | [OrbbecSDK_ROS2](https://github.com/iHaruruki/OrbbecSDK_ROS2_setup.git) |
 | Mapping | | slam_toolbox | [lucia_slam_toolbox](https://github.com/iHaruruki/lucia_slam_toolbox) |
 | Mapping | | Cartographer | [lucia_cartographer](https://github.com/iHaruruki/lucia_cartographer) |
-| Navigation | Navigation2 | [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2) |
-| Maps | Map Storage | [maps](https://github.com/iHaruruki/maps) |
-| Arm | Arm Serial Control | [spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll) |
-| Arm | Inverse Kinematics | [spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics) |
-| Vital | Vital Measurement | [lucia_vital](https://github.com/iHaruruki/lucia_vital) |
-| Vital | Calibration | [lucia_vital_calibration](https://github.com/iHaruruki/lucia_vital_calibration) |
-| Vital | Vital Measurement Feedback | [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display) |
-| Audio(JP) | Audio Generator | [audio_generator](https://github.com/iHaruruki/audio_generator.git) |
-| Audio(EN) | Audio Generator | [audio_generator_edge_tts](https://github.com/iHaruruki/audio_generator_edge_tts.git) |
+| Navigation ||  Navigation2 | [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2) |
+| Maps || Map Storage | [maps](https://github.com/iHaruruki/maps) |
+| Arm | | Arm Serial Control | [spina_arm_controll](https://github.com/iHaruruki/spina_arm_controll) |
+| Arm | | Inverse Kinematics | [spina_inverse_kinematics](https://github.com/iHaruruki/spina_inverse_kinematics) |
+| Vital | | Vital Measurement | [lucia_vital](https://github.com/iHaruruki/lucia_vital) |
+| Vital | | Calibration | [lucia_vital_calibration](https://github.com/iHaruruki/lucia_vital_calibration) |
+| Vital | | Vital Measurement Feedback | [lucia_vital_signs_display](https://github.com/iHaruruki/lucia_vital_signs_display) |
+| Audio(JP) | | Audio Generator | [audio_generator](https://github.com/iHaruruki/audio_generator.git) |
+| Audio(EN) | | Audio Generator | [audio_generator_edge_tts](https://github.com/iHaruruki/audio_generator_edge_tts.git) |
 ---
 
 # Lucia have 3 mode
