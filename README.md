@@ -18,8 +18,8 @@
 
 ## 📦 Package Matrix
 
-| Domain | Function | Repository |
-|--------|---------------|------------|
+| Domain | Device Name | Function | Repository |
+|--------|----------|---------------|------------|
 | Base | Motor & Encoder Controller | [lucia_controller](https://github.com/iHaruruki/lucia_controller) |
 | Base | Joystick to cmd_vel | [joy_to_cmdvel](https://github.com/iHaruruki/joy_to_cmdvel) |
 | Base | URDF / Description | [lucia_description](https://github.com/iHaruruki/lucia_description) |
