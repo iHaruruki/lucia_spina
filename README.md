@@ -124,8 +124,8 @@ ros2 launch lucia_navigation2 navigation2.launch.py \
   3. Repeat step 1 and 2 until the LiDAR sensor data is overlayed on the saved map. / LiDARセンサーデータが保存済みマップ上に重ねられるまで，手順1と2を繰り返す
 
 ### Send Navigation Goal
-  1. Click the `2D Goal Pose` button in the RViz2 menu.
-  2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
+  1. Click the `2D Goal Pose` button in the RViz2 menu. / rviz2の`2D Goal Pose`をクリックする  
+  2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing. / 地図をクリックしてロボットの目的地を設定し，緑の矢印をロボットが向く方向へドラッグしてください．
 ---
 
 ## Spina Arm Control & Vital Signs Display System
