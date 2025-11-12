@@ -67,20 +67,28 @@ ros2 run joy_to_cmdvel joy_to_cmdvel_node
 ---
 
 ## 🗺️ B. SLAM (Map Building)
+
+### Startup Lucia's power supply and connect Wi-Fi
+1. Turn on Lucia's main power / Luciaの主電源を入れる   
+2. Launch `Lucia-04-Green-01-Main` in YARP mode / `Lucia-04-Green-01-Main`を起動  
+3. Connect NUC38 to SSID(`lucia-g-router2-5G`) / NUC38をSSID(`lucia-g-router2-5G`)に接続する  
+4. Change YARP mode to `Remote` mode / YARPのモードを[Remote] モードに変更
   
-Bring up base
+### Startup control system and LiDAR
 ```bash
 ros2 launch lucia_controller bringup.launch.py
 ```
-Run slam_toolbox
+### Run slam_toolbox
 ```bash
 ros2 launch lucia_slam_toolbox online_async_launch.py
 ```
-Control via keyboard
+### Control via keyboard
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 *Start exploring and drawing the map.*
+
+### Save the map you created
 ```bash
 ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
@@ -91,7 +99,7 @@ With the above command, map.pgm and map.yaml will be saved in the home folder ~/
 
 ## 🧭 C. Navigation (Using Saved Map)
 
-1. Bring up base
+Bring up base
   ```bash
   ros2 launch lucia_controller bringup.launch.py
   ```
