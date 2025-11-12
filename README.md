@@ -43,15 +43,21 @@
 # Lucia have 3 mode
 ## :video_game: A. Manual Control mode
 
-Bring up base
+### Startup Lucia's power supply and connect Wi-Fi
+1. Turn on Lucia's main power / Luciaの主電源を入れる   
+2. Launch `Lucia-04-Green-01-Main` in YARP mode / `Lucia-04-Green-01-Main`を起動  
+3. Connect NUC38 to SSID(`lucia-g-router2-5G`) / NUC38をSSID(`lucia-g-router2-5G`)に接続する  
+4. Change YARP mode to `Remote` mode / YARPのモードを[Remote] モードに変更
+
+### Startup control system and LiDAR 
 ```bash
 ros2 launch lucia_controller bringup.launch.py
 ```
-Control via keyboard
+### Control via keyboard
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
-Joystick
+### Joystick
 ```bash
 ros2 run joy joy_node
 ```
