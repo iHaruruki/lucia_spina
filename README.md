@@ -119,12 +119,12 @@ ros2 launch lucia_navigation2 navigation2.launch.py \
   use_sim_time:=false
 ```
 ### Initial Pose
-  1. Click the 2D Pose Estimate button in the RViz2 menu.
+  1. Click the `2D Pose Estimate` button in the RViz2 menu.
   2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
   3. Repeat step 1 and 2 until the LDS sensor data is overlayed on the saved map.
 
 ### Send Navigation Goal
-  1. Click the Navigation2 Goal button in the RViz2 menu.
+  1. Click the `2D Goal Pose` button in the RViz2 menu.
   2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
 ---
 
