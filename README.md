@@ -113,7 +113,7 @@ ros2 launch lucia_controller bringup.launch.py
 ### Run navigation2
 ```bash
 ros2 launch lucia_navigation2 navigation2.launch.py \
-  map:=$HOME/ros2_ws/src/lucia_navigation2/map/map.yaml \
+  map:=$HOME/ros2_ws/src/lucia_navigation2/map/map_e3.yaml \
   use_sim_time:=false
 ```
 ### Initial Pose
