@@ -103,7 +103,8 @@ With the above command, map.pgm and map.yaml will be saved in the home folder ~/
 1. Turn on Lucia's main power / Luciaの主電源を入れる   
 2. Launch `Lucia-04-Green-01-Main` in YARP mode / `Lucia-04-Green-01-Main`を起動  
 3. Connect NUC38 to SSID(`lucia-g-router2-5G`) / NUC38をSSID(`lucia-g-router2-5G`)に接続する  
-4. Change YARP mode to `Remote` mode / YARPのモードを[Remote] モードに変更
+4. Release the emergency stop button / 非常停止ボタンを解除する
+5. Change YARP mode to `Remote` mode / YARPのモードを[Remote] モードに変更
   
 ### Startup control system and LiDAR
 ```bash
@@ -115,13 +116,14 @@ ros2 launch lucia_navigation2 navigation2.launch.py \
   map:=$HOME/ros2_ws/src/lucia_navigation2/map/map.yaml \
   use_sim_time:=false
 ```
-Initial Pose
-    1. Click the 2D Pose Estimate button in the RViz2 menu.
-    2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
-    3. Repeat step 1 and 2 until the LDS sensor data is overlayed on the saved map.
-Send Navigation Goal
-    1. Click the Navigation2 Goal button in the RViz2 menu.
-    2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
+### Initial Pose
+  1. Click the 2D Pose Estimate button in the RViz2 menu.
+  2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing.
+  3. Repeat step 1 and 2 until the LDS sensor data is overlayed on the saved map.
+
+### Send Navigation Goal
+  1. Click the Navigation2 Goal button in the RViz2 menu.
+  2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing.
 ---
 
 ## Spina Arm Control & Vital Signs Display System
