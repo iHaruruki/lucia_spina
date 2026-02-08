@@ -89,6 +89,7 @@ ros2 launch lucia_slam_toolbox online_async_launch.py
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 *Start exploring and drawing the map.*
+![slam_toolbox](/media/slam_toolbox.gif)
 
 ### Save the map you created
 ```bash
@@ -127,14 +128,16 @@ ros2 launch lucia_navigation2 navigation2.launch.py \
   1. Click the `2D Pose Estimate` button in the RViz2 menu. / rviz2の`2D Pose Estimate`をクリックする  
   2. Click on the map where the actual robot is located and drag the large green arrow toward the direction where the robot is facing. / ロボットが配置されている地図上の位置をクリックし，大きな緑色の矢印をロボットが向いている方向へドラッグしてください  
   3. Repeat step 1 and 2 until the LiDAR sensor data is overlayed on the saved map. / LiDARセンサーデータが保存済みマップ上に重ねられるまで，手順1と2を繰り返す
+  ![nav2_initial](/media/nav2_initial.gif)
 
 ### Send Navigation Goal / ロボットの目標地点を設定する
   1. Click the `2D Goal Pose` button in the RViz2 menu. / rviz2の`2D Goal Pose`をクリックする  
   2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing. / 地図をクリックしてロボットの目的地を設定し，緑の矢印をロボットが向く方向へドラッグしてください．
+  ![nav2_goal](/media/nav2_goal.gif)
 ---
 
 > [!TIP]
-> More information about the **lucia_navigation2** can be found in the following GitHub repository: \\
+> More information about the **lucia_navigation2** can be found in the following GitHub repository:  
 > [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2.git)
 
 ## Spina Arm Control & Vital Signs Display System
