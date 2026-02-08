@@ -95,8 +95,12 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
 > [!NOTE]
-> The -f option specifies a folder location and a file name where files to be saved. \\
+> The -f option specifies a folder location and a file name where files to be saved.  
 > With the above command, map.pgm and map.yaml will be saved in the home folder `~/(/home/${username})`.
+
+> [!TIP]
+> More information about the **lucia_slam_toolbox** can be found in the following GitHub repository:  
+> [lucia_slam_toolbox](https://github.com/iHaruruki/lucia_slam_toolbox.git)
 
 ---
 
@@ -128,6 +132,10 @@ ros2 launch lucia_navigation2 navigation2.launch.py \
   1. Click the `2D Goal Pose` button in the RViz2 menu. / rviz2の`2D Goal Pose`をクリックする  
   2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing. / 地図をクリックしてロボットの目的地を設定し，緑の矢印をロボットが向く方向へドラッグしてください．
 ---
+
+> [!TIP]
+> More information about the **lucia_navigation2** can be found in the following GitHub repository: \\
+> [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2.git)
 
 ## Spina Arm Control & Vital Signs Display System
 ### 🦾 Spina Arm Control
