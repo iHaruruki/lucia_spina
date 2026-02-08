@@ -138,6 +138,7 @@ ros2 launch lucia_navigation2 navigation2.launch.py \
 > [!TIP]
 > More information about the **lucia_navigation2** can be found in the following GitHub repository:  
 > [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2.git)
+
 **lucia waypoint follow mode**
 [lucia_waypoint_follow_mode](/media/lucia_waypoint_follow.gif)
 ---
