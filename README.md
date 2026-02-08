@@ -58,7 +58,7 @@ ros2 launch lucia_controller bringup.launch.py
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
-### Joystick
+### Control via Joystick
 ```bash
 ros2 run joy joy_node
 ```
@@ -94,8 +94,9 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```bash
 ros2 run nav2_map_server map_saver_cli -f ~/map
 ```
-The -f option specifies a folder location and a file name where files to be saved.
-With the above command, map.pgm and map.yaml will be saved in the home folder ~/(/home/${username}).
+> [!NOTE]
+> The -f option specifies a folder location and a file name where files to be saved. \\
+> With the above command, map.pgm and map.yaml will be saved in the home folder `~/(/home/${username})`.
 
 ---
 
