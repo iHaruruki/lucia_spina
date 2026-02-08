@@ -134,11 +134,11 @@ ros2 launch lucia_navigation2 navigation2.launch.py \
   1. Click the `2D Goal Pose` button in the RViz2 menu. / rviz2の`2D Goal Pose`をクリックする  
   2. Click on the map to set the destination of the robot and drag the green arrow toward the direction where the robot will be facing. / 地図をクリックしてロボットの目的地を設定し，緑の矢印をロボットが向く方向へドラッグしてください．
   ![nav2_goal](/media/nav2_goal.gif)
----
 
 > [!TIP]
 > More information about the **lucia_navigation2** can be found in the following GitHub repository:  
 > [lucia_navigation2](https://github.com/iHaruruki/lucia_navigation2.git)
+---
 
 ## Spina Arm Control & Vital Signs Display System
 ### 🦾 Spina Arm Control
